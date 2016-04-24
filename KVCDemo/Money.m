@@ -1,19 +1,14 @@
 //
-//  ViewController.h
+//  Money.m
 //  KVCDemo
 //
 //  Created by 吴玉铁 on 16/4/24.
 //  Copyright © 2016年 吴玉铁. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Money.h"
 
-@interface ViewController : UIViewController
-
-- (void)runtimeLogMethod;
-
-
+@implementation Money
 
 
 @end
-

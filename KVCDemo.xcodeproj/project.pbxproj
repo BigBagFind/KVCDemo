@@ -15,6 +15,8 @@
 		8127CAD51CCCE146000F98B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8127CAD31CCCE146000F98B6 /* LaunchScreen.storyboard */; };
 		8127CAE01CCCE146000F98B6 /* KVCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127CADF1CCCE146000F98B6 /* KVCDemoTests.m */; };
 		8127CAEB1CCCE146000F98B6 /* KVCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127CAEA1CCCE146000F98B6 /* KVCDemoUITests.m */; };
+		8127CAFA1CCCE4EF000F98B6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127CAF91CCCE4EF000F98B6 /* Person.m */; };
+		8127CAFD1CCCE55E000F98B6 /* Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 8127CAFC1CCCE55E000F98B6 /* Money.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		8127CAE61CCCE146000F98B6 /* KVCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8127CAEA1CCCE146000F98B6 /* KVCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCDemoUITests.m; sourceTree = "<group>"; };
 		8127CAEC1CCCE146000F98B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8127CAF81CCCE4EF000F98B6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8127CAF91CCCE4EF000F98B6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		8127CAFB1CCCE55E000F98B6 /* Money.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Money.h; sourceTree = "<group>"; };
+		8127CAFC1CCCE55E000F98B6 /* Money.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Money.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				8127CAC91CCCE146000F98B6 /* AppDelegate.m */,
 				8127CACB1CCCE146000F98B6 /* ViewController.h */,
 				8127CACC1CCCE146000F98B6 /* ViewController.m */,
+				8127CAF81CCCE4EF000F98B6 /* Person.h */,
+				8127CAF91CCCE4EF000F98B6 /* Person.m */,
+				8127CAFB1CCCE55E000F98B6 /* Money.h */,
+				8127CAFC1CCCE55E000F98B6 /* Money.m */,
 				8127CACE1CCCE146000F98B6 /* Main.storyboard */,
 				8127CAD11CCCE146000F98B6 /* Assets.xcassets */,
 				8127CAD31CCCE146000F98B6 /* LaunchScreen.storyboard */,
@@ -272,6 +282,8 @@
 			files = (
 				8127CACD1CCCE146000F98B6 /* ViewController.m in Sources */,
 				8127CACA1CCCE146000F98B6 /* AppDelegate.m in Sources */,
+				8127CAFD1CCCE55E000F98B6 /* Money.m in Sources */,
+				8127CAFA1CCCE4EF000F98B6 /* Person.m in Sources */,
 				8127CAC71CCCE146000F98B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
